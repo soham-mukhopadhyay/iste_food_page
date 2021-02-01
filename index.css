@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url(fonts/OpenSans.TTF) format('truetype');
+  }
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(fonts/Montserrat.TTF) format('truetype');
+  }
+
+
+p {
+
+
+    font-family: 'Open Sans';
+    font-size: 18px;
+   
+   
+    }
+
+h1 {
+
+
+    font-family: 'Montserrat';
+   
+   
+    }
+
+
+h4 {
+
+
+    font-family: 'Open Sans';
+   
+   
+    }
+
+li {
+
+
+    font-family: 'Open Sans';
+    font-size: 14px;
+   
+   
+    }
