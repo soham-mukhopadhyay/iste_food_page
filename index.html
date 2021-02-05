@@ -4,6 +4,10 @@
   <title>Bootstrap Food Page</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -23,111 +27,142 @@
   <p>Indian street food dishes you absolutely have to try!</p> 
 </div>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">Home</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li><a href="https://github.com/soham-mukhopadhyay/iste_food_page" target="_blank">Github repo</a></li>
-        <li><a href="https://thefoodhog.com/indian-street-food/" target="_blank">Source</a></li>
-      </ul>
-    </div>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+
+  <a class="navbar-brand" href="#">Home</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="https://github.com/soham-mukhopadhyay/iste_food_page" target="_blank">Github repo</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="https://thefoodhog.com/indian-street-food/" target="_blank">Source</a>
+      </li>
+    </ul>
   </div>
 </nav>
 
-<div class="container">
-  <div class="row">
-    <div class="col-sm-8">
-      <h1>PANIPURI</h1>
-      <h3><i>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-      </i></h3><br>
-      <div><img src="panipuri.jpg" class="img-fluid" alt="Panipuri"></div>
-      <br>
-      <p>Pani Puri is one of the most popular street foods on the Indian subcontinent. It consists of round flatbreads (called puri) stuffed with a mix of chickpeas, onions, potatoes, chutney, chaat masala, chutney, and soupy water (pani). The mix of the ingredients, as well as the name of the dish varies from state to state. In Uttar Pradesh, this dish is known as Golgappa, in West Bengal, Phuchka, in Central India, it’s called Gup Chup, etc.</p>
-      <br>
-      <p>Get 6 pc. for ₹30!</p><br>
-      <p><button class="button">View item</button></p>
-      <br>
+<div class="card-columns">
+  <div class="card text-center" style="max-width: 500px;">
+    <h1 class="card-title">PANIPURI</h1>
+    <h3><i>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+    </i></h3><br>
+    <div><img src="panipuri.jpg" class="img-fluid" alt="Panipuri"></div>
+    <br>
+    <div class="card-body">
+    <div class="card-text"><p>Pani Puri is one of the most popular street foods on the Indian subcontinent. It consists of round flatbreads (called puri) stuffed with a mix of chickpeas, onions, potatoes, chutney, chaat masala, chutney, and soupy water (pani). The mix of the ingredients, as well as the name of the dish varies from state to state. In Uttar Pradesh, this dish is known as Golgappa, in West Bengal, Phuchka, in Central India, it’s called Gup Chup, etc.</p></div>
+    <br>
+    <p>Get 6 pc. for ₹30!</p><br>
+    <p><button class="button">View item</button></p>
+    </div>
+  </div>
 
 
-      <h1>SAMOSA</h1>
-      <h3><i>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star"></span>
-      </i></h3><br>
-      <div><img src="samosa.jpg" class="img-fluid" alt="Samosa"></div>
-      <br>
-      <p>Samosa is India’s most popular baked pastry and it’s so popular that you can find it in a lot of other places, like Burma, Indonesia, Central Asia, and even the southern and western parts of Africa. The pastry is stuffed with spiced potatoes, onions, peas, and lentils, and it comes in different shapes; triangular, half-moon, and cone, depending on the region. This delicious treat also happens to be one of the oldest snacks in the world.</p>
-      <br>
-      <p>Get 6 pc. for ₹80!</p><br>
-      <p><button class="button">View item</button></p>
-      <br>
+  <div class="card text-center" style="max-width: 500px;">
+    <h1 class="card-title">SAMOSA</h1>
+    <h3><i>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+    </i></h3><br>
+    <div><img src="samosa.jpg" class="img-fluid" alt="Samosa"></div>
+    <br>
+    <div class="card-body">
+    <div class="card-text"><p>Samosa is India’s most popular baked pastry and it’s so popular that you can find it in a lot of other places, like Burma, Indonesia, Central Asia, and even the southern and western parts of Africa. The pastry is stuffed with spiced potatoes, onions, peas, and lentils, and it comes in different shapes; triangular, half-moon, and cone, depending on the region. This delicious treat also happens to be one of the oldest snacks in the world.</p></div>
+    <br>
+    <p>Get 6 pc. for ₹80!</p><br>
+    <p><button class="button">View item</button></p>
+    </div>
+  </div>
 
 
-      <h1>PAV BHAJI</h1>
-      <h3><i>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star"></span>
-      </i></h3><br>
-      <div><img src="pav_bhaji.jpg" class="img-fluid" alt="Pav Bhaji"></div>
-      <br>
-      <p>Spicy, hot, and flavorful, Pav Bhaji is the pride of Mumbai. It consists of a thick, spicy vegetable gravy that first attacks your smell buds and lures you to the nearest street food stall before giving the final blow to your taste buds and a soft bread bun with a few lime drops to open your appetite even more. Initially, the dish originates from Maharashtra but it became so popular you can even find instant pav bhaji in most big supermarkets across India.</p>
-      <br>
-      <p>Get 1 plate for ₹100!</p><br>
-      <p><button class="button">View item</button></p>
-      <br>
+  <div class="card text-center" style="max-width: 500px;">
+    <h1 class="card-title">PAV BHAJI</h1>
+    <h3><i>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+    </i></h3><br>
+    <div><img src="pav_bhaji.jpg" class="img-fluid" alt="Pav Bhaji"></div>
+    <br>
+    <div class="card-text"><p>Spicy, hot, and flavorful, Pav Bhaji is the pride of Mumbai. It consists of a thick, spicy vegetable gravy that first attacks your smell buds and lures you to the nearest street food stall before giving the final blow to your taste buds and a soft bread bun with a few lime drops to open your appetite even more. Initially, the dish originates from Maharashtra but it became so popular you can even find instant pav bhaji in most big supermarkets across India.</p></div>
+    <br>
+    <div class="card-body">
+    <p>Get 1 plate for ₹100!</p><br>
+    <p><button class="button">View item</button></p>
+    </div>
+  </div>
 
-
-      <h1>ROLLS</h1>
-      <h3><i>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-      </i></h3><br>
-      <div><img src="rolls.jpg" class="img-fluid" alt="Rolls"></div>
-      <br>
-      <p>No trip to Kolkata is complete without trying at least one of the city’s mouth-watering rolls. Rolls in Kolkata come in many different shapes, sizes, and variations, but the two most popular one are the egg roll (a soft bread mixed in a raw egg and filled with onions, chilies, cucumbers, and other vegetables spiced up with chaat masala, lime, and a few other spices) and the chicken kathi roll (a roll with a delicately-prepared filling of chicken kebab and raw veggies that’s a real treat not only for the stomach but for the eyes too).</p>
-      <br>
-      <p>Get 1 pc. for ₹120 to ₹150!</p><br>
-      <p><button class="button">View item</button></p>
-      <br>
+  <div class="card text-center" style="max-width: 500px;">
+    <h1 class="card-title">ROLLS</h1>
+    <h3><i>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+    </i></h3><br>
+    <div><img src="rolls.jpg" class="img-fluid" alt="Rolls"></div>
+    <br>
+    <div class="card-body">
+    <div class="card-text"><p>No trip to Kolkata is complete without trying at least one of the city’s mouth-watering rolls. Rolls in Kolkata come in many different shapes, sizes, and variations, but the two most popular one are the egg roll (a soft bread mixed in a raw egg and filled with onions, chilies, cucumbers, and other vegetables spiced up with chaat masala, lime, and a few other spices) and the chicken kathi roll (a roll with a delicately-prepared filling of chicken kebab and raw veggies that’s a real treat not only for the stomach but for the eyes too).</p></div>
+    <br>
+    <p>Get 1 pc. for ₹120 to ₹150!</p><br>
+    <p><button class="button">View item</button></p>
+    </div>
+  </div>
 
       
-      <h1>IDLI SAMBAR</h1>
-      <h3><i>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star checked"></span>
-        <span class="fa fa-star"></span>
-        <span class="fa fa-star"></span>
-      </i></h3><br>
-      <div><img src="idli_sambar.jpg" class="img-fluid" alt="Idli Sambar"></div>
-      <br>
-      <p>Idli Sambar is arguably Chennai’s favorite breakfast and something you can find on every corner in the Tamil capital but it’s also very popular in other parts of South India too. Idli is basically a rice bread dish made of fermented rice and black gram batter steamed in molds while sambar is a spicy vegetable curry with lentil base that will tickle your stomach and leave you craving for more.</p>
-      <p>Get 1 plate for ₹120!</p><br>
-      <p><button class="button">View item</button></p>
-      <br>
-    </div>
+  <div class="card text-center" style="max-width: 500px;">
+    <h1 class="card-title">IDLI SAMBAR</h1>
+    <h3><i>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+      <span class="fa fa-star"></span>
+    </i></h3><br>
+    <div><img src="idli_sambar.jpg" class="img-fluid" alt="Idli Sambar"></div>
+    <br>
+    <div class="card-body">
+    <div class="card-text"><p>Idli Sambar is arguably Chennai’s favorite breakfast and something you can find on every corner in the Tamil capital but it’s also very popular in other parts of South India too. Idli is basically a rice bread dish made of fermented rice and black gram batter steamed in molds while sambar is a spicy vegetable curry with lentil base that will tickle your stomach and leave you craving for more.</p></div>
+    <p>Get 1 plate for ₹120!</p><br>
+  <p><button class="button">View item</button></p>
+  </div>
+  </div>
+
+
+  <div class="card text-center" style="max-width: 500px;">
+    <h1 class="card-title">MOMOS</h1>
+    <h3><i>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+    </i></h3><br>
+    <div><img src="momos.jpg" class="img-fluid" alt="Momos"></div>
+    <br>
+    <div class="card-body">
+    <div class="card-text"><p>There’s a hard debate on the internet over where did momos originate from but everyone agrees that this is one of India’s favorite snacks. It has been widely accepted around India and north Indians have actually mastered the art of momo making to perfection and some of the momos in Delhi are almost as good as the ones you’ll get in Sikkim and the other northeast states. In case you don’t know what momos are, they are a tangy variation of hot dumplings filled with chicken, pork, beef, or veggies. Momos come in three variations; steamed, fried, and boiled but the most popular version is by far, the steamed one.</p></div>
+    <p>Get 6 pc. for ₹80 to ₹120!</p><br>
+  <p><button class="button">View item</button></p>
+  </div>
   </div>
 </div>
 
